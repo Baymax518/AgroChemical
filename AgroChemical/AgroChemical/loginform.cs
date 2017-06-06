@@ -17,7 +17,7 @@ namespace AgroChemical
         public loginform()
         {
             InitializeComponent();
-
+            this.WindowState = FormWindowState.Maximized;
             string str = AgroFUN.getConnectionString();
 
         }
@@ -47,6 +47,7 @@ namespace AgroChemical
             {
                 MessageBox.Show("Please enter Password");
             }
+        
 
 
             else
