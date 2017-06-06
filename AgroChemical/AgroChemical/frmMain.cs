@@ -121,5 +121,10 @@ namespace AgroChemical
             frmStoreSetting FRMUNIT = new frmStoreSetting();
             FRMUNIT.ShowDialog();
         }
+
+        private void mnuMain_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

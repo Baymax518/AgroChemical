@@ -223,5 +223,10 @@ namespace AgroChemical
         {
             this.Close();
         }
+
+        private void frmTax_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

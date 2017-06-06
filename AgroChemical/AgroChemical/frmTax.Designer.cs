@@ -70,9 +70,11 @@
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(331, 0);
+            this.groupBox1.Location = new System.Drawing.Point(1048, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(401, 520);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.groupBox1.Size = new System.Drawing.Size(1270, 1480);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tax";
@@ -80,17 +82,19 @@
             // txtRate
             // 
             this.txtRate.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRate.Location = new System.Drawing.Point(136, 102);
+            this.txtRate.Location = new System.Drawing.Point(431, 290);
+            this.txtRate.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.txtRate.Name = "txtRate";
-            this.txtRate.Size = new System.Drawing.Size(242, 29);
+            this.txtRate.Size = new System.Drawing.Size(758, 71);
             this.txtRate.TabIndex = 2;
             // 
             // txtType
             // 
             this.txtType.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtType.Location = new System.Drawing.Point(136, 67);
+            this.txtType.Location = new System.Drawing.Point(431, 191);
+            this.txtType.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.txtType.Name = "txtType";
-            this.txtType.Size = new System.Drawing.Size(242, 29);
+            this.txtType.Size = new System.Drawing.Size(758, 71);
             this.txtType.TabIndex = 1;
             // 
             // label3
@@ -98,9 +102,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(53, 67);
+            this.label3.Location = new System.Drawing.Point(168, 191);
+            this.label3.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 21);
+            this.label3.Size = new System.Drawing.Size(213, 65);
             this.label3.TabIndex = 11;
             this.label3.Text = "Tax Type";
             // 
@@ -109,9 +114,10 @@
             this.btnExit.BackColor = System.Drawing.Color.Red;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(290, 147);
+            this.btnExit.Location = new System.Drawing.Point(918, 418);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(99, 32);
+            this.btnExit.Size = new System.Drawing.Size(314, 91);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -122,18 +128,20 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(53, 102);
+            this.label6.Location = new System.Drawing.Point(168, 290);
+            this.label6.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 21);
+            this.label6.Size = new System.Drawing.Size(122, 65);
             this.label6.TabIndex = 10;
             this.label6.Text = "Rate";
             // 
             // txtCode
             // 
             this.txtCode.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCode.Location = new System.Drawing.Point(136, 28);
+            this.txtCode.Location = new System.Drawing.Point(431, 80);
+            this.txtCode.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(242, 29);
+            this.txtCode.Size = new System.Drawing.Size(758, 71);
             this.txtCode.TabIndex = 0;
             // 
             // btnDelete
@@ -141,9 +149,10 @@
             this.btnDelete.BackColor = System.Drawing.Color.Maroon;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(181, 147);
+            this.btnDelete.Location = new System.Drawing.Point(573, 418);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(103, 32);
+            this.btnDelete.Size = new System.Drawing.Size(326, 91);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -155,9 +164,10 @@
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(57, 147);
+            this.btnSave.Location = new System.Drawing.Point(181, 418);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(118, 32);
+            this.btnSave.Size = new System.Drawing.Size(374, 91);
             this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -168,9 +178,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(53, 28);
+            this.label1.Location = new System.Drawing.Point(168, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 21);
+            this.label1.Size = new System.Drawing.Size(210, 65);
             this.label1.TabIndex = 0;
             this.label1.Text = "TaxCode";
             // 
@@ -185,10 +196,10 @@
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 9);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.groupBox2.Size = new System.Drawing.Size(732, 520);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 9);
+            this.groupBox2.Size = new System.Drawing.Size(2318, 1480);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Data";
@@ -198,18 +209,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 25);
+            this.label2.Location = new System.Drawing.Point(41, 71);
+            this.label2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 21);
+            this.label2.Size = new System.Drawing.Size(169, 65);
             this.label2.TabIndex = 5;
             this.label2.Text = "Search";
             // 
             // txtSearch
             // 
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(76, 28);
+            this.txtSearch.Location = new System.Drawing.Point(241, 80);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(230, 29);
+            this.txtSearch.Size = new System.Drawing.Size(720, 71);
             this.txtSearch.TabIndex = 4;
             this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyUp);
             // 
@@ -217,9 +230,9 @@
             // 
             this.grdData.AllowUserToAddRows = false;
             this.grdData.AllowUserToDeleteRows = false;
-            this.grdData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.grdData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grdData.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.grdData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grdData.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -236,7 +249,8 @@
             this.CODE,
             this.TAXTYPE,
             this.RATE});
-            this.grdData.Location = new System.Drawing.Point(12, 78);
+            this.grdData.Location = new System.Drawing.Point(38, 222);
+            this.grdData.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.grdData.MultiSelect = false;
             this.grdData.Name = "grdData";
             this.grdData.ReadOnly = true;
@@ -253,7 +267,7 @@
             this.grdData.RowTemplate.Height = 40;
             this.grdData.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.grdData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdData.Size = new System.Drawing.Size(313, 439);
+            this.grdData.Size = new System.Drawing.Size(991, 1249);
             this.grdData.TabIndex = 0;
             this.grdData.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.grdUnit_CellMouseDoubleClick);
             // 
@@ -289,13 +303,14 @@
             // 
             // frmTax
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 520);
+            this.ClientSize = new System.Drawing.Size(2318, 1480);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmTax";
@@ -303,6 +318,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tax";
+            this.Load += new System.EventHandler(this.frmTax_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
