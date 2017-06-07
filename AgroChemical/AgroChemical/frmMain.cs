@@ -126,5 +126,15 @@ namespace AgroChemical
         {
 
         }
+
+        private void productToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CloseChild();
+
+            frmproduct FRMUNIT = new frmproduct();
+            FRMUNIT.MdiParent = this;
+            FRMUNIT.Dock = DockStyle.Fill;
+            FRMUNIT.Show();
+        }
     }
 }

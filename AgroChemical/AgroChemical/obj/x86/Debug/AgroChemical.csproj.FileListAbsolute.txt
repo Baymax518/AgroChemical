@@ -45,3 +45,4 @@ C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x8
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.loginform.resources
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmproduct.resources

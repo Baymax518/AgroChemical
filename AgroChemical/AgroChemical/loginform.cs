@@ -17,7 +17,7 @@ namespace AgroChemical
         public loginform()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+          //  this.WindowState = FormWindowState.Maximized;
             string str = AgroFUN.getConnectionString();
 
         }
@@ -87,6 +87,16 @@ namespace AgroChemical
         {
 
 
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
