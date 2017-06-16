@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.datagrdItemPack = new System.Windows.Forms.DataGridView();
             this.datagrditem = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtItemPackId = new System.Windows.Forms.TextBox();
@@ -78,18 +79,15 @@
             this.txtPName = new System.Windows.Forms.TextBox();
             this.txtPId = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.datagrdItemPack = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.datagrdItemPack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagrditem)).BeginInit();
             this.panel1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.gbTextSelect.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.datagrdItemPack)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage2
@@ -119,6 +117,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ITEM PACK DETAILS";
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(903, 390);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(220, 54);
+            this.label20.TabIndex = 14;
+            this.label20.Text = "PACK DATA";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(894, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(305, 54);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "PRODUCT DATA";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // datagrdItemPack
+            // 
+            this.datagrdItemPack.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.datagrdItemPack.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.datagrdItemPack.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.datagrdItemPack.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.datagrdItemPack.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagrdItemPack.Location = new System.Drawing.Point(903, 461);
+            this.datagrdItemPack.Name = "datagrdItemPack";
+            this.datagrdItemPack.RowTemplate.Height = 46;
+            this.datagrdItemPack.Size = new System.Drawing.Size(1568, 626);
+            this.datagrdItemPack.TabIndex = 12;
+            this.datagrdItemPack.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagrdItemPack_CellContentClick);
+            // 
             // datagrditem
             // 
             this.datagrditem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -127,14 +160,6 @@
             this.datagrditem.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.datagrditem.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.datagrditem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagrditem.DefaultCellStyle = dataGridViewCellStyle2;
             this.datagrditem.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.datagrditem.Location = new System.Drawing.Point(903, 101);
             this.datagrditem.Name = "datagrditem";
@@ -185,6 +210,7 @@
             // btnAddItem
             // 
             this.btnAddItem.BackColor = System.Drawing.Color.Lime;
+            this.btnAddItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddItem.Location = new System.Drawing.Point(162, 544);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(395, 97);
@@ -330,6 +356,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(1378, 722);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(165, 54);
@@ -339,6 +366,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(1378, 617);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(220, 54);
@@ -348,6 +376,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(1324, 521);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(346, 54);
@@ -357,6 +386,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(1378, 417);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(116, 54);
@@ -366,6 +396,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(1378, 306);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(116, 54);
@@ -375,6 +406,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(1378, 197);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(249, 54);
@@ -384,6 +416,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(1378, 92);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(301, 54);
@@ -393,6 +426,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(110, 731);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(193, 54);
@@ -402,6 +436,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(110, 624);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 54);
@@ -411,6 +446,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(110, 517);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(187, 54);
@@ -420,6 +456,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(110, 410);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(106, 54);
@@ -429,6 +466,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(101, 303);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(233, 54);
@@ -438,6 +476,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(110, 196);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(277, 54);
@@ -447,6 +486,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(110, 89);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(211, 54);
@@ -456,6 +496,8 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDelete.Location = new System.Drawing.Point(1461, 842);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(347, 87);
@@ -467,6 +509,8 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnUpdate.Location = new System.Drawing.Point(1011, 842);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(347, 87);
@@ -478,6 +522,8 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAdd.Location = new System.Drawing.Point(555, 842);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(347, 87);
@@ -620,49 +666,6 @@
             this.tabControl1.Size = new System.Drawing.Size(2555, 1166);
             this.tabControl1.TabIndex = 0;
             // 
-            // datagrdItemPack
-            // 
-            this.datagrdItemPack.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.datagrdItemPack.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.datagrdItemPack.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.datagrdItemPack.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.datagrdItemPack.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagrdItemPack.DefaultCellStyle = dataGridViewCellStyle1;
-            this.datagrdItemPack.Location = new System.Drawing.Point(903, 461);
-            this.datagrdItemPack.Name = "datagrdItemPack";
-            this.datagrdItemPack.RowTemplate.Height = 46;
-            this.datagrdItemPack.Size = new System.Drawing.Size(1568, 626);
-            this.datagrdItemPack.TabIndex = 12;
-            this.datagrdItemPack.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagrdItemPack_CellContentClick);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(894, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 54);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "PRODUCT DATA";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(903, 390);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(220, 54);
-            this.label20.TabIndex = 14;
-            this.label20.Text = "PACK DATA";
-            // 
             // frmProductAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
@@ -677,6 +680,7 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.datagrdItemPack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagrditem)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -686,7 +690,6 @@
             this.gbTextSelect.ResumeLayout(false);
             this.gbTextSelect.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.datagrdItemPack)).EndInit();
             this.ResumeLayout(false);
 
         }
