@@ -226,5 +226,10 @@ namespace AgroChemical
             txtCity.Text = "";
             txtAddress.Text = "";
         }
+
+        private void grdData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

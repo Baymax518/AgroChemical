@@ -198,6 +198,11 @@ namespace AgroChemical
                 //this.SelectNextControl(this.ActiveControl, true, true, true, true);
                 SendKeys.Send("{TAB}");
             }
-        }   
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

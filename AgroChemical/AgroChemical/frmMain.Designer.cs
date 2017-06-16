@@ -105,6 +105,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(203, 69);
             this.toolStripMenuItem1.Text = "General";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // categoryToolStripMenuItem
             // 
@@ -266,6 +267,7 @@
             this.tbarItem.Name = "tbarItem";
             this.tbarItem.Size = new System.Drawing.Size(68, 68);
             this.tbarItem.Text = "Item";
+            this.tbarItem.Click += new System.EventHandler(this.tbarItem_Click);
             // 
             // toolbtnCategory
             // 
@@ -351,6 +353,7 @@
             this.Name = "frmMain";
             this.Text = "Agro";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.mnuMain.ResumeLayout(false);
             this.mnuMain.PerformLayout();
             this.toolStripMain.ResumeLayout(false);

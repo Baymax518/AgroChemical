@@ -29,7 +29,6 @@ C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x8
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.pdb
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\AgroChemical.exe
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\AgroChemical.pdb
-C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.csprojResolveAssemblyReference.cache
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmCategory.resources
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmCustomer.resources
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmMain.resources
@@ -46,3 +45,9 @@ C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x8
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmproduct.resources
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmProductAdd.resources
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.ucProduct.resources
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmItem.resources
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmItemAdd.resources
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.csprojResolveAssemblyReference.cache
+C:\Users\Baymax\Documents\kunjprac\AgroChemical\AgroChemical\AgroChemical\obj\x86\Debug\AgroChemical.frmTest.resources

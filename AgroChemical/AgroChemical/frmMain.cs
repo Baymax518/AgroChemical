@@ -136,5 +136,31 @@ namespace AgroChemical
             FRMUNIT.Dock = DockStyle.Fill;
             FRMUNIT.Show();
         }
+
+        private void tbarItem_Click(object sender, EventArgs e)
+        {
+            CloseChild();
+
+            frmproduct FRMUNIT = new frmproduct();
+            FRMUNIT.MdiParent = this;
+            FRMUNIT.Dock = DockStyle.Fill;
+            FRMUNIT.Show();
+            //CloseChild();
+
+            //frmItem FRMUNIT = new frmItem();
+            //FRMUNIT.MdiParent = this;
+            //FRMUNIT.Dock = DockStyle.Fill;
+            //FRMUNIT.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
